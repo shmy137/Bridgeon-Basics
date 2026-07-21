@@ -1,0 +1,28 @@
+/* p{
+    background-color: aquamarine;
+}
+
+.main p{
+    background-color: brown;
+}
+
+.main .first{
+    background-color: rgb(31, 58, 58);
+    color: aliceblue;
+}
+
+h1{
+    color: yellow;
+    display: inline;
+}
+h1 p{
+    display: inline;
+} */
+
+.sub>p{
+    background-color: aqua;
+}
+
+p{
+    background-color: beige;
+}
