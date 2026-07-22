@@ -19,10 +19,85 @@ h1 p{
     display: inline;
 } */
 
-.sub>p{
+.main {
+    background-color: red;
+    z-index: 1;
+}
+/* .sub p{
     background-color: aqua;
+} */
+
+/* p{
+    background-color: beige;
+} */
+
+h1 + p{
+    background-color: red;
 }
 
+h1 ~ p{
+    color: blue;
+}
+
+
+/* attribute selector */
+input{
+    border: 2px solid blue;
+    border-radius:20px ;
+}
+
+input[placeholder]{
+    border: 3px dashed green;
+}
+input[placeholder = "enter your password"]{
+    border: 30px solid black;
+}
+
+a[href$=day]{
+    color: green;
+}
+a:hover{
+    color: brown;
+    /* background-color: yellowgreen; */
+    /* pointer-events: painted; */
+    cursor: crosshair;
+}
+
+input:focus{
+    outline: 2px solid blue;
+}
+
+
 p{
-    background-color: beige;
+    color: red;
+}
+
+p:not(.first){
+    background-color: aqua  ;
+}
+h1::before{
+    content: "★";
+}
+
+h2::after{
+    content: "★";
+}
+
+.last p::first-letter   {
+    color: purple;
+}
+
+
+
+input::placeholder{
+    color: brown;
+    font-style:italic;
+}.third{
+    padding-left: 50px;
+}
+
+.last{
+    border: 2px solid darkblue;
+    border-top-style: none  ;
+    padding-left: 30px;
 }
