@@ -1,0 +1,39 @@
+
+
+div ~ p{
+    background-color: bisque;
+}
+
+.main>p{
+    background-color: violet;
+}
+
+div p{
+    color: yellow;
+}
+
+.secondary > :nth-child(even){
+    background-color: rgb(48, 181, 181);
+}
+.flow{
+    background-color: aqua !important;
+    color: black;
+    height: 300px;
+    width: 200px;
+    /* overflow: auto; */
+
+    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow-anchor: none;
+}
+img{
+    opacity: 0.3;
+    height: 50px;
+    width: 50px;
+}
+img:hover{
+    opacity: 1.0;
+}
+.opac{
+    background-color: rgba(78, 191, 22, 0.123);
+}

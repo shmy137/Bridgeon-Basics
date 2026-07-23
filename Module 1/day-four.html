@@ -1,0 +1,111 @@
+<!-- Day 4
+* Combinators in CSS
+* Specificity and !important
+* Overflow
+* Z-index
+* Opacity -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Shaamir Mansoor" />
+    <title>Day Four</title>
+    <link rel="stylesheet" href="day-four.css" />
+    <link rel="shortcut icon" href="Logo.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <style>
+      div + p {
+        background-color: bisque;
+      }
+    </style>
+    <h1>Hello World!</h1>
+    <div class="main">
+      <p class="flow">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto dolorum debitis ratione sequi inventore iure sit nihil alias velit perferendis, qui consectetur commodi pariatur corrupti exercitationem adipisci natus cupiditate!
+        Accusamus similique necessitatibus atque natus aut perferendis aliquid eligendi cupiditate ea dolorum porro, laboriosam cum alias eaque voluptas beatae doloremque eveniet, deserunt vitae itaque deleniti. Alias modi reprehenderit quasi illo?
+        Quisquam perferendis autem ipsam deleniti. Magnam, eum. Amet doloremque necessitatibus perferendis velit mollitia temporibus explicabo, beatae numquam, dolorum porro ea laborum saepe aspernatur, perspiciatis tempora tenetur dolores commodi. Atque, a!
+        Aspernatur ducimus porro nam amet illo, excepturi, nemo natus veniam quibusdam nostrum accusamus, accusantium dolores sequi ipsa! Expedita corporis modi ratione perferendis dolorem obcaecati nostrum deleniti totam quia, ab veniam.
+        Dolorem quos vel qui odit distinctio dolores aspernatur magni perspiciatis. Ipsum omnis, deleniti a quam ducimus nam earum cumque quidem obcaecati at. Nemo molestias numquam natus recusandae fugiat expedita eum.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore, impedit quos numquam inventore, facere veritatis nostrum laborum id at odio harum maxime vel sequi perferendis nisi obcaecati, voluptate nulla.</p>
+    <div class="secondary">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+        ipsum, distinctio esse, quod officia ab dolor laboriosam, nobis quidem a
+        culpa impedit maiores alias. Laboriosam reiciendis molestiae ducimus
+        atque voluptas!
+      </p>
+    </div>
+    <img src="Logo.jpg" alt="liquidix logo" >
+    <div class="opac">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi aut corrupti ab possimus commodi ipsa at praesentium dolorum sit alias quidem beatae aliquid, doloribus illum consequatur exercitationem placeat quaerat nemo!
+        Expedita iste sequi laborum et est distinctio dolorem ducimus incidunt! Obcaecati quo praesentium natus dolorem! Blanditiis facilis repudiandae, cumque voluptatibus consequuntur eos aut voluptatem, commodi molestias ad doloremque eius quibusdam!
+        Deleniti error itaque minima, tenetur iste nesciunt eum. Eum odit dolorem molestiae, quas quaerat laudantium iste illo quisquam voluptatibus. Omnis maiores sit iste quas dolorem sunt autem corrupti velit dolorum!
+        Dolorem, consectetur aliquid. Error laborum quam corrupti velit totam esse eligendi dolores odit quasi sint quod consequatur labore nobis veniam blanditiis, omnis magni natus iure at animi perferendis ut iusto.
+        Vitae animi dolore placeat aut illum aspernatur necessitatibus ullam officia possimus unde assumenda, debitis cum error! Quis architecto quasi deserunt, libero nihil, odit suscipit quaerat odio ipsam veniam similique quo!
+        Praesentium fuga voluptas tempora dolor et, velit quasi dolorem quia molestiae in corporis? Aspernatur asperiores dolorem enim in ipsum, doloremque adipisci ad cumque accusamus ipsam. Nulla repellendus nemo temporibus necessitatibus?
+        Excepturi pariatur nisi ducimus in deleniti tempore maiores fugit odit quia reprehenderit ipsa enim dolore, dignissimos placeat asperiores sunt recusandae dolores ab? Esse, illum. Voluptatem dolores recusandae magnam. Placeat, quo?
+        Fugiat expedita quasi dolore et! Earum praesentium odit odio nam fugit sed eligendi quos omnis quaerat, obcaecati eum? Animi ut fuga iste sed magnam, voluptate cupiditate veniam eius adipisci doloremque?
+        Sunt eum adipisci totam nisi officia deleniti quaerat consectetur? Officia ut dolores harum placeat ea tempora exercitationem quia tempore quas! Saepe labore ipsum repellat minima exercitationem, ratione ad iste est?
+        Corrupti, dicta perferendis id tempore ea sint minus architecto porro? Eveniet fuga saepe voluptatibus ipsam, ad aperiam dolores maiores ut sunt atque? Expedita enim ut vitae ad animi, facilis tenetur?
+        Inventore adipisci doloribus omnis dicta nam optio fugit corrupti. Autem ipsa ut reprehenderit distinctio est minus similique deserunt delectus voluptatibus iusto odit voluptate deleniti ducimus hic, sapiente, eius beatae doloremque.
+        Odio dicta, blanditiis asperiores laudantium rerum culpa voluptatum corporis commodi aperiam sapiente ratione veniam quos! Minus deserunt necessitatibus quas incidunt vero, beatae sed quaerat libero, at deleniti est aperiam ab.
+        Dignissimos excepturi iure fugiat, perspiciatis quasi architecto harum fuga minus quas unde error dolores a sunt id tenetur cupiditate illum quaerat similique sint, odit officiis tempora ex quam. Eveniet, hic.
+        Dolorem necessitatibus hic sunt animi optio repellendus reiciendis, saepe ad nam nesciunt, suscipit, voluptates at officia mollitia aperiam deleniti vitae dicta inventore nihil natus accusantium quas asperiores nemo beatae! At.
+        Quod est neque dicta, voluptates tenetur deserunt impedit? Omnis suscipit magnam velit pariatur tempora eum impedit, similique totam perspiciatis recusandae assumenda eligendi quidem vel. Quae veniam animi repellendus natus autem.
+        Accusantium qui ex quaerat similique, maiores totam incidunt obcaecati dicta impedit, nobis ipsa ratione atque, aliquid libero voluptatibus neque delectus laborum dolorem porro? Maxime veniam fugiat dignissimos, animi illum dolorum!
+        Accusantium aliquid obcaecati eligendi voluptate voluptatem, pariatur eum perferendis incidunt illo quod! Voluptatum fugit omnis aspernatur libero illo nobis repellat dignissimos deserunt consequatur, unde qui facilis labore numquam maxime perferendis.
+        Debitis cum tempora expedita veritatis vel repellat accusamus quos iste delectus blanditiis recusandae suscipit unde, voluptates pariatur soluta repellendus odio facilis consequatur voluptatibus voluptatem? Unde omnis architecto ipsam nesciunt quas.
+        Voluptate quos ex error, animi itaque dolores! Voluptatem asperiores sit velit! Esse fugiat animi placeat non, id quaerat reiciendis itaque molestiae. Eveniet voluptas provident velit natus corporis. Corrupti, architecto doloremque.
+        Ad corrupti, adipisci quod beatae perspiciatis eveniet recusandae sunt, possimus alias ipsa expedita placeat eius, consectetur sequi quas eligendi necessitatibus corporis in assumenda enim quasi nam laborum. Aut, iste similique.
+    </div>
+  </body>
+</html>
