@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+}
+
+/* .main{
+    background-color: blue;
+    height: 250px;
+    width: 250px ;
+} */
+
+.inner_one{
+        background-color: rgb(180, 185, 32);
+    height: 250px;
+    width: 250px ;
+    display: none;
+
+    
+}
+
+.sub_one{
+    background-color: aqua;
+    height: 70px;
+    width: 70px;
+}
+.inner_two{
+    background-color: rgb(215, 69, 21);
+    height: 250px;
+    width: 250px ;
+    /* display: inline-block; */
+}
+
+/* .sub_one{
+    background-color: #bf11da;
+    height: 250px;
+    width: 250px ;
+} */
