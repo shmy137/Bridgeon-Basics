@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+/* .item{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+} */
+.container {
+  /* background-color: bisque; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(3, auto);
+  gap: 20px 10px;
+  font-size: 30px;
+  color: black;
+
+  /* height: 80px; */
+}
+.item {
+}
+.item1 {
+  background-color: aqua;
+}
+.item2 {
+  background-color: blue;
+  color: azure;
+}
+.item3 {
+  background-color: yellow;
+}
+.item3-big {
+  background-color: brown;
+  /* grid-column:2 / 4;
+    grid-row:2 / 4; */
+  grid-area: 2 / 2/ 4/4;
+}

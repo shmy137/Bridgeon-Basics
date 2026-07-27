@@ -1,0 +1,40 @@
+    *{
+    
+    }
+
+    .ef{
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        display: flex;
+        /* justify-content: space-around; */
+    }
+    .hel{
+
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
+    list-style-type: none;
+    /* padding: 20px; */
+    width: 100%;
+    margin: 0px;   
+    padding: 0;
+    align-items: center;
+    }
+    .hel li{
+        padding: 0px 10px;
+    }
+    .helloo{
+        background-color: brown;
+        color: white;
+    }
+
+    #hy{
+        background-color: green !important;
+        color: aliceblue !important;
+        
+    }
