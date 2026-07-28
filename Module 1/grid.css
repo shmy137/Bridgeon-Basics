@@ -1,40 +1,46 @@
-    *{
-    
-    }
+.main{
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(3, 1fr);
+    grid-template-areas: "header header sidebar"
+   "main main sidebar"
+   "main main sidebar"
+   "main main sidebar"
+   "main main sidebar"
+   "footer footer sidebar"
+   
+    ;
+    gap: 5px;
+}
 
-    .ef{
-        height: 300px;
-        width: 300px;
-        background-color: yellow;
-        display: flex;
-        /* justify-content: space-around; */
-    }
-    .hel{
+.one{
+    background-color: #e15b5b;
+    /* grid-area: 1/1/6/2; */
+}
+.two{
+    background-color:   #552f9a;
+}
+.three{
+    background-color: #24cccc;
+    /* grid-area:  1/2/4/3; */
+    grid-area: sidebar;
+}
+.four{
+    background-color: #81c61a;
+}
+.five{
+    background-color: #a80d5b;
+    grid-area:main;
+}
+.six{
+    background-color: #193605;
+}
+.seven{
+    background-color: #7d681a;
+}
+.eight{
+    background-color: #7cc6cf;
+}
+.nine{
+    background-color: #7b8dc9;
+}
 
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    /* justify-content: space-between; */
-    justify-content: center;
-    /* justify-content: center;
-    align-items: center; */
-    list-style-type: none;
-    /* padding: 20px; */
-    width: 100%;
-    margin: 0px;   
-    padding: 0;
-    align-items: center;
-    }
-    .hel li{
-        padding: 0px 10px;
-    }
-    .helloo{
-        background-color: brown;
-        color: white;
-    }
-
-    #hy{
-        background-color: green !important;
-        color: aliceblue !important;
-        
-    }
