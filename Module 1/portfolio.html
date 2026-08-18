@@ -9,6 +9,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "5aX44GzIvtMQvLh1O",
+        });
+      })();
+    </script>
+    <script src="portfolio.js"></script>
   </head>
   <body>
     <header>
@@ -53,10 +66,11 @@
           <p>
             I believe great software is more than just writing code—it's about
             solving problems, creating meaningful experiences, and making
-            technology accessible. As a <span>Full Stack Developer</span>, I enjoy crafting
-            modern web applications with a strong focus on performance,
-            scalability, and user experience. Every project is an opportunity to
-            learn, innovate, and deliver something that makes a difference.
+            technology accessible. As a <span>Full Stack Developer</span>, I
+            enjoy crafting modern web applications with a strong focus on
+            performance, scalability, and user experience. Every project is an
+            opportunity to learn, innovate, and deliver something that makes a
+            difference.
           </p>
         </div>
       </div>
@@ -109,30 +123,31 @@
         <form>
           <div class="row">
             <div class="input-box">
-              <label>Full Name</label>
-              <input type="text" placeholder="Shaamir Mansoor" />
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Shaamir Mansoor" />
             </div>
 
-            <div class="input-box">
+            <!-- <div class="input-box">
               <label>Email</label>
               <input type="email" placeholder="example@gmail.com" />
-            </div>
+            </div> -->
           </div>
 
           <div class="input-box">
-            <label>Subject</label>
-            <input type="text" placeholder="Project Discussion" />
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project Discussion" />
           </div>
 
           <div class="input-box">
-            <label>Message</label>
+            <label for="message">Message</label>
             <textarea
               placeholder="Tell me about your project..."
               rows="6"
+id="message"
             ></textarea>
           </div>
 
-          <button>
+          <button type="button" onclick="sendMail()">
             Send Message
             <i class="fa-solid fa-arrow-right"></i>
           </button>
