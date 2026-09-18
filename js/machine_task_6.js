@@ -4,10 +4,11 @@
 //   ● toArray(0) ➞ [0]  ● toNumber([0]) ➞ 0
 
 
-// let str = [1,2,3]
-// console.log(str.toString())
-// // let strr = 0;
-// // console.log(String(strr.split("")))
+let str = [1,2,3]
+console.log(str.join(""))
+
+let strr = 0;
+console.log(String(strr).split(""))
 // console.log(String(strr).split(""));
 
 
