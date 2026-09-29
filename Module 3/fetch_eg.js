@@ -15,16 +15,30 @@
 // }
 // fetchh();
 
-fetch("https://jsonplaceholder.typicode.com/users")
-  .then((res) =>
-    res.json().then((txt) => {
-      console.log(
-        txt.slice(0, txt.length).map((name) => {
-          return name.company.catchPhrase;
-        }),
-      );
-    }),
-  )
-  .catch(() => {
-    console.log("faile");
-  });
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((res) =>
+//     res.json().then((txt) => {
+//       console.log(
+//         txt.slice(0, txt.length).map((name) => {
+//           return name.company.catchPhrase;
+//         }),
+//       );
+//     }),
+//   )
+//   .catch(() => {
+//     console.log("faile");
+//   });
+
+async function getData() {
+    try {
+        const response = await fetch("https://jsonplaceholder.typicode.com/users");
+
+        const data = await response.json();
+
+        console.log(data.address.street);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+getData();
