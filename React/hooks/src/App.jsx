@@ -127,6 +127,7 @@ import { useState } from "react";
 import Useref from './useref.jsx'
 import Machinetask from './machinetask2.jsx'
 import Timer from './timer.jsx'
+import Event from './event.jsx'
 
 function App() {
   const [clickCount, setClickCount] = useState(0);
@@ -154,6 +155,7 @@ function App() {
       <Useref />
       <Machinetask />
       <Timer />
+      <Event />
     </>
   );
 }
