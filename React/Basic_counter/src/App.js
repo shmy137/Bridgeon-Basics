@@ -33,6 +33,7 @@
 // export default myApp
 
 import { useState } from "react";
+import MultiState from "./multiState";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -54,6 +55,8 @@ function App() {
       )}
     </div>
   );
+
+  <MultiState />
 }
 
 export default App;

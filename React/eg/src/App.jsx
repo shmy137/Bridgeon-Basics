@@ -6,12 +6,18 @@ import "./App.css";
 import Checkbox from "../components/checkbox";
 import CheckedBox from "../components/checkedbox.jsx";
 import Pass from "../components/password.jsx";
+import Stopwatch from "../components/stopwatch.jsx";
+import Counter from "../components/counter.jsx";
+import ExpenseTracker from "../components/expenseTracker.jsx";
 
 function App() {
   return (
     <>
       <CheckedBox />
-      <Pass  />
+      <Pass />
+      <Stopwatch />
+      <Counter />
+      <ExpenseTracker />
     </>
   );
 }
