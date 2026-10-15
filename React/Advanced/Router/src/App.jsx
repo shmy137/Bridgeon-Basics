@@ -6,13 +6,16 @@ import "./App.css";
 import BasicRouter from "./Components/BasicRouter";
 import DynUPar from "./Components/dynamic&useparams";
 import { BrowserRouter } from "react-router-dom";
+import Home from "./Components/products.jsx";
+import Main from "./Components/products.jsx";
 
 function App() {
   return (
     <>
       <BasicRouter />
       <BrowserRouter>
-        <DynUPar />
+        {/* <DynUPar /> */}
+        <Main />
       </BrowserRouter>
     </>
   );
