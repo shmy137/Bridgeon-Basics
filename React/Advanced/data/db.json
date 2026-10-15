@@ -1,14 +1,85 @@
 {
   "notes": [
     {
-      "id": "1",
-      "title": "Learn React",
-      "content": "Understand useEffect and useState"
+      "title": "hello",
+      "content": "dummy fake content",
+      "id": "1"
     },
     {
       "id": "2",
       "title": "Learn APIs",
       "content": "Practice HTTP methods"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzsRXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWdzRXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7dVWzRXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzRXfwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzRXwhnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzRjXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzRXwanzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N73VWzRXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzR5XwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzRXwnz6A"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VW6zRXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "N7VWzRXwnzA9"
+    },
+    {
+      "title": "demo",
+      "content": "this a demo content",
+      "id": "1N7VWzRXwnzA"
+    },
+    {
+      "title": "demo",
+      "content": "this a fake demo content",
+      "id": "r7t5LO3962SI"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
