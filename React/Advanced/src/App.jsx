@@ -4,17 +4,18 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 import Axios from "./components/Axios.jsx";
-import UseContext from "./components/useContext.jsx";
-import useCustomHook from "./components/customHook.jsx";
-import UseReducer from "./components/useReducer.jsx";
-import UseMemo from "./components/UseMemo.jsx";
+import UseContext from "./components/Hooks/useContext.jsx";
+import useCustomHook from "./components/Hooks/customHook.jsx";
+import UseReducer from "./components/Hooks/useReducer.jsx";
+import UseMemo from "./components/Hooks/UseMemo.jsx";
 import ReactMemo from "./components/ReactMemo.jsx";
+import UseCallback from "./components/UseCallback.jsx";
 
 function App() {
   // const { count, increment, decrement } = useCustomHook();
 
   // React Memo
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
@@ -22,11 +23,11 @@ function App() {
       {/* <UseMemo /> */}
 
       {/* React Memo */}
-
+      {/* 
       <p>counter : {count}</p>
       <button onClick={() => setCount(count + 1)}>Add</button>
 
-      <ReactMemo />
+      <ReactMemo /> */}
 
       {/* <UseReducer /> */}
 
@@ -38,8 +39,7 @@ function App() {
       {/* <Axios /> */}
       {/* <UseContext /> */}
 
-
-      
+      <UseCallback />
     </>
   );
 }
