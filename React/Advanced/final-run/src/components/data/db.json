@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Shaamir",
+      "email": "shaamir@example.com",
+      "role": "Developer"
+    },
+    {
+      "id": "2",
+      "name": "Ahjklrun",
+      "email": "arun@example.com",
+      "role": "Designer"
+    },
+    {
+      "id": "3",
+      "name": "Perfume",
+      "price": 999,
+      "category": "Fragrance"
+    },
+    {
+      "id": "4",
+      "name": "Perfume",
+      "price": 999,
+      "category": "Fragrance"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Perfume",
+      "price": 999,
+      "category": "Fragrance"
+    },
+    {
+      "id": "2",
+      "name": "Headphones",
+      "price": 1499,
+      "category": "Electronics"
+    },
+    {
+      "id": "3",
+      "name": "Perfume",
+      "price": 999,
+      "category": "Fragrance"
+    },
+    {
+      "id": "4",
+      "name": "Headphones",
+      "price": 1499,
+      "category": "Electronics"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "title": "Learn React",
+      "content": "Practice useState and useEffect"
+    },
+    {
+      "id": "2",
+      "title": "Learn Axios",
+      "content": "Practice GET and POST requests"
+    }
+  ]
+}

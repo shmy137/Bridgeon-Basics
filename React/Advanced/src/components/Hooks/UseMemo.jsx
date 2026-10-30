@@ -25,7 +25,7 @@ function UseMemo() {
 
 function slowfunction(num) {
   console.log("number added");
-  for (let i = 0; i <= 1000; i++) {}
+  for (let i = 0; i <= 10000000; i++) {}
   return num * 2;
 }
 

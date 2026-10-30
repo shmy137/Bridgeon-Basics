@@ -15,19 +15,19 @@ function App() {
   // const { count, increment, decrement } = useCustomHook();
 
   // React Memo
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   return (
     <>
       {/* use memo */}
-      {/* <UseMemo /> */}
+      <UseMemo />
 
       {/* React Memo */}
-      {/* 
+      
       <p>counter : {count}</p>
       <button onClick={() => setCount(count + 1)}>Add</button>
 
-      <ReactMemo /> */}
+      {/* <ReactMemo count={count}/> */}
 
       {/* <UseReducer /> */}
 
@@ -39,7 +39,7 @@ function App() {
       {/* <Axios /> */}
       {/* <UseContext /> */}
 
-      <UseCallback />
+      {/* <UseCallback /> */}
     </>
   );
 }
