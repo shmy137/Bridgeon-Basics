@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 55000,
+      "category": "Electronics",
+      "description": "A powerful laptop for coding, work, and everyday use."
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 25000,
+      "category": "Electronics",
+      "description": "A modern smartphone with excellent performance."
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 3000,
+      "category": "Accessories",
+      "description": "Comfortable headphones for music and calls."
+    },
+    {
+      "id": 4,
+      "name": "Keyboard",
+      "price": 1500,
+      "category": "Accessories",
+      "description": "A reliable keyboard for your everyday setup."
+    }
+  ]
+}

@@ -1,9 +1,11 @@
-import Axios from "./axios/Axios.jsx";
+
+import DynamicRouter from "./Router/DynamicRouter.jsx";
 
 function App() {
   return (
     <>
-      <Axios />
+
+      <DynamicRouter />
     </>
   );
 }
