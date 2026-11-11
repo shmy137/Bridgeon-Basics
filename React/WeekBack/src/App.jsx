@@ -5,7 +5,7 @@ import UseCallback from "./Hooks/useCallback.jsx";
 import UseMemo from "./Hooks/useMemo.jsx";
 import Combination from "./Hooks/Combination.jsx";
 import Staring from "./components/Staring.jsx";
-import UseReducer from "./Hooks/useReducer.jsx"
+import UseReducerrr from "./Hooks/useReducer.jsx"
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
 
       {/* <Staring /> */}
 
-      <UseReducer />
+      <UseReducerrr />
 
     </>
   );
