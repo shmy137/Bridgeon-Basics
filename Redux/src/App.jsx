@@ -23,30 +23,55 @@
 // }
 // export default App;
 
-import "./App.css";
-import {useDispatch, useSelector } from 'react-redux'
-import { increment } from "./components/multipleReducers/counterslice.js";
-import { changename } from "./components/multipleReducers/userSlice.js";
-function App(){
+// import "./App.css";
+// import {useDispatch, useSelector } from 'react-redux'
+// import { increment } from "./components/multipleReducers/counterslice.js";
+// import { changename } from "./components/multipleReducers/userSlice.js";
+// function App(){
 
-const count = useSelector((state)=> state.counter.count)
-const user = useSelector((state)=> state.user.name)
+// const count = useSelector((state)=> state.counter.count)
+// const user = useSelector((state)=> state.user.name)
 
-const dispatch = useDispatch()
+// const dispatch = useDispatch()
 
+//   return (
+//     <>
+//     <h2>hello</h2>
+//     {count}
+//     <button onClick={()=> dispatch(increment())}>+</button>
+//     {user}
+//     <button onClick={()=> dispatch(changename("mansoor"))}>=</button>
+//     </>
+//   )
+// }
 
+// export default App
+
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchUsers } from "./components/fetch/fetch2/createAsyncthunk";
+
+function App() {
+  const dispatch = useDispatch();
+
+  const { users, loading, error } = useSelector((state) => state.users);
+
+  useEffect(() => {
+    dispatch(fetchUsers());
+  }, [dispatch]);
+
+  if (loading) return <p>........loadiing</p>;
+  if (error) return <p>........error : {error}</p>;
   return (
     <>
-    <h2>hello</h2>
-    {count}
-    <button onClick={()=> dispatch(increment())}>+</button>
-    {user}
-    <button onClick={()=> dispatch(changename("mansoor"))}>=</button>
+      helo
+      {users
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .map((user) => (
+          <p key={user.id}>{user.name}</p>
+        ))}
     </>
-  )
+  );
 }
-
-export default App
-
-
-
+export default App;
