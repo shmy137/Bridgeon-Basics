@@ -9,7 +9,7 @@ function ViewMutation() {
     queryFn: async () => {
       const response = await axios.get("http://localhost:3000/users");
 
-      return response.data;
+      return response.data.data;
     },
   });
 

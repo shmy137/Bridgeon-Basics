@@ -1,20 +1,14 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment } from "./Redux/actions";
+// 
+
+import React from 'react'
+import Dispatch from './fetch/Dispatch.jsx'
 
 function App() {
-  const count = useSelector((state) => state.count);
-
-  const dispatch = useDispatch();
-
   return (
     <div>
-      {count}
-
-      <button onClick={() => dispatch(increment())}>+</button>
-      <button onClick={() => dispatch(decrement())}>-</button>
+      <Dispatch />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
